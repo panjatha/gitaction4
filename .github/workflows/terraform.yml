@@ -9,7 +9,7 @@ jobs:
   terraform:
     name: 'Terraform Init and Apply'
     runs-on: ubuntu-latest
-    environment: sksgita   # <-- Yeh tera environment ka naam hai boss!
+    environment: pro   # <-- Yeh tera environment ka naam hai boss!
 
     steps:
     - name: Checkout code
