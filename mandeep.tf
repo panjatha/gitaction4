@@ -5,14 +5,14 @@ terraform {
       version = "4.27.0"
     }
   }
-  backend "azurerm" {
-    resource_group_name  = "data_rg"
-    storage_account_name = "sksgit"
-    container_name       = "mandeeps"
-    key                  = "mandeep.tfstate"
+  # backend "azurerm" {
+  #   resource_group_name  = "data_rg"
+  #   storage_account_name = "sksgit"
+  #   container_name       = "mandeeps"
+  #   key                  = "mandeep.tfstate"
 
-  }
 }
+
 
 provider "azurerm" {
   features {}
