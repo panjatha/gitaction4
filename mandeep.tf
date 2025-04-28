@@ -20,7 +20,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "mandeeps" {
-  name     = "mandoas5"
+  name     = "mandoas55"
   location = "East US"
 
 }
