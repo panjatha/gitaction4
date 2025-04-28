@@ -6,7 +6,6 @@ terraform {
     }
   }
   backend "azurerm" {
-    subscription_id = "2178b722-5baa-4418-8bc9-3fcb9cd14fed"
     resource_group_name  = "data_rg"
     storage_account_name = "sksgit"
     container_name       = "mandeeps"
